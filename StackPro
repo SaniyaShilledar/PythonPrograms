@@ -1,9 +1,9 @@
 class StackPro:
      def __init__(self):
-        self.element = []    #init method automatically executes and element store into list.
+        self.element = []    #init method automatically executes and element store into array.
         
      def isEmpty(self):
-         return len(self.element)== 0  #isEmpty method will check whether list is empty or not.
+         return len(self.element)== 0  #isEmpty method will check whether array is empty or not.
          
      def push(self, item):
          self.element.append(item)    
